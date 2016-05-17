@@ -50,4 +50,4 @@ The top 5 of the "Red Zones" are—**Little Italy/NoLiTa, Manhattan**; **Jamaica
 
 ### Acknowledgement
 
-Special thanks to FiveThirtyEight for providing the Uber data, TLC for providing the Medallion data, and Professor Huy T. Vo for providing instruction on the R-tree spatial join algorithm.
+Special thanks to FiveThirtyEight for providing the Uber data, Taxi & Limousine Commission for providing the Medallion data, and Professor Huy T. Vo for providing instruction on the R-tree spatial join algorithm.
