@@ -50,4 +50,4 @@ In conclusion, Uber has had the most amount of impact on taxi pickups in Manhatt
 
 ### Acknowledgement
 
-Special thanks to FiveThirtyEight for providing the Uber data, TLC for providing the Medallion data, and Professor Huy V. Vo for providing instruction on the R-tree spatial join algorithm.
+Special thanks to FiveThirtyEight for providing the Uber data, TLC for providing the Medallion data, and Professor Huy T. Vo for providing instruction on the R-tree spatial join algorithm.
