@@ -22,7 +22,7 @@ def convertCount(ct):
     c = np.int64(np.float64(ct))
     return c
 
-trips = pd.read_csv('../data/aggregated/merged.csv',                     converters={'datetime': convertTime, 'u_count': convertCount})
+trips = pd.read_csv('../data/aggregated/merged.csv', converters={'datetime': convertTime, 'u_count': convertCount})
 trips_agg = trips.groupby(['zone', 'datetime'], as_index=False).agg({'m_count': np.sum, 'u_count': np.sum})
 
 for z in trips_agg.zone.unique():

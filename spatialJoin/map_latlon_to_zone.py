@@ -34,7 +34,7 @@ def mapToZone(trips):
         pickup_loc  = geom.Point(proj(float(p[1]), float(p[2])))
         pickup_zone = findZone(pickup_loc, index, zones)
         if pickup_zone>=0:
-        	yield (str(zones.borough[pickup_zone])+','+str(zones.zone[pickup_zone])+','+t.strftime('%Y-%m-%d %H'), 1)
+            yield (str(zones.borough[pickup_zone])+','+str(zones.zone[pickup_zone])+','+t.strftime('%Y-%m-%d %H'), 1)
 
 def main():
     sc = SparkContext()
