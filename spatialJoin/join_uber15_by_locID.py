@@ -6,7 +6,7 @@ from glob import glob
 from datetime import datetime
 
 if __name__=="__main__":
-	lookup = pd.read_csv('../data/uber/taxi-zone-lookup.csv')
+	lookup = pd.read_csv('../data/geo/taxi-zone-lookup.csv')
 
 	uber15trips = []
 
